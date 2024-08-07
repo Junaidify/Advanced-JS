@@ -1,0 +1,24 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+
+.dropdown div:nth-child(2){
+  position: absolute;
+  top: 5rem;
+  left: 20rem;
+  background-color: black;
+  box-shadow: 2px 5px 8px 1px rgba(0, 0, 0, 0.2);
+  height: 20rem;
+  width: 30rem;
+  transform: translate(50%, 50%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2rem;
+  text-shadow: 2px 5px 8px red;
+  border-radius: 10px;
+  color: white;
+}
